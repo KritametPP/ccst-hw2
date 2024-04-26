@@ -1,0 +1,85 @@
+body {
+    background-repeat: no-repeat;
+    background: linear-gradient(to bottom, rgba(0,0,0,1), rgba(255, 255, 255, 0)),url(./Piclab2/BG.png) ;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+.tinder {
+    display: inline-block;
+    font-size: 1.3em;
+    color: white;
+    font-family: Tahoma, sans-serif;
+
+}
+
+.logo {
+    margin: 8px 8px 8px 8px;
+    display: inline-block;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+    font-size: 1em;
+    margin-right: 10px;
+}
+
+a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.menu-right {
+    margin-left: auto;
+    
+} 
+
+.login {
+    border: 1px solid white;
+    padding: 13px;
+    border-radius: 50px;
+    align-items: center;
+    background-color: white;
+    margin-left: 30px;
+    margin-right: 10px;
+}
+
+.login a {
+    color: rgb(0, 0, 0);
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 750px;
+    font-size: 70px;
+    
+}
+
+.create {
+    justify-content: center;
+    color: white;
+    border-radius: 20px;
+    font-size: 16px;
+    text-align: center;
+    width: 150px;
+    height: 50px;
+    margin-left: 150px;
+    padding-top: 1px;
+    background-image: linear-gradient(to top right, #bf4cce, #b85319);
+    border-radius: none;
+}
